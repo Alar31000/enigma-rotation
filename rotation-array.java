@@ -127,7 +127,9 @@ public class rotorRotate {
 	    	char shift = sc.next().toUpperCase().charAt(0);
 	    	System.out.println("Enter the Shifting number:") ;
 	    	int d = sc.nextInt();
-	    	int n = 26;
+		System.out.println("Enter the number of elements:") ;
+	    	int n = sc.nextInt();
+	    	//int n = 26; in case of our array
 	    	int[] arr = new int[n];
 	    	System.out.println("Enter the array element");
 	        //For reading the element
